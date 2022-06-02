@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.Main {
+
+    background-color: #918E9B ;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 7px;
+  
+}
+
+.Main2 {
+    
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 317px;
+    height: max-content;
+    background-color: #1A1B21;
+    text-align: center;
+    margin: 10px auto; 
+}
+.image {
+    width: 317px;
+    height: max-content;
+    text-align: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.Nome {
+
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.Profession {
+    color: #F3BF99;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+}
+
+.Email {
+    color: #FFFFFF; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+}
+
+.Button {
+
+    display:flex; 
+    
+}
+
+.btn2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto; 
+    width: 115px;
+    border-radius: 5px;
+
+}
+
+.btn3 {
+    width: 115px;
+    background-color: #5093E2 ;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto; 
+    border-radius: 2px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.About {
+    color: #F5F5F5; 
+    text-align: left;
+    justify-content: center;
+    max-width: 75%;
+    margin: auto;
+    font-family: 'Inter';
+    font-size: 10.24px;
+}
+
+.About > h1 {
+    font-size: 16px ;
+    font: bold;
+    font-family: 'Inter';
+    margin-bottom: 3px;
+}
+
+.Footer {
+    margin-top: 20px;
+    background-color: #161619;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+}
+
+.Footer > div {
+  
+    list-style: none;
+    color:grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
