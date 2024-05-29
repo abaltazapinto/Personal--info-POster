@@ -7,8 +7,20 @@ import './style.css'
 import Footer from './Components/Footer';
 
 function App() {
+  const backgrounStyle = {
+    backgroungImage: 'url(/img/IMG_20191231_123456.jpg)',
+    bacgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    height: '100vh',
+    width: '100%',
+    margin: '0',
+    fontfamily: 'Arial, sans-serif',
+  };
+
   return (
     <>
+    <div style={backgrounStyle}>
     <div className='Main'>
 
     <div className='Main2'>
@@ -18,6 +30,7 @@ function App() {
       <Footer />
     </div>
     
+    </div>
     </div>
     </>
   );
