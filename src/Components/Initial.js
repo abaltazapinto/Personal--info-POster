@@ -13,10 +13,10 @@ function Initial() {
             <div className="Email">andrebaltazarpinto@gmail.com</div>
             <div className="Button"> 
                 <a href="mailto:andrebaltazarpinto@gmail.com">
-                <button className="btn2">
-                    <span class="material-icons"> email</span>
-                    <span className="email"> Email</span> 
-                </button> 
+                    <button className="btn2">
+                        <span class="material-icons"> email</span>
+                        <span className="email"> Email</span> 
+                    </button> 
                 </a>
                 <a href="https://www.linkedin.com/in/andr%C3%A9-baltazar-pinto-13a056141/" target="_blank" rel="noreferrer">
                     <button className="btn3">
