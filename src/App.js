@@ -5,10 +5,11 @@ import About from './Components/About';
 import Interests from './Components/Interests';
 import './style.css'
 import Footer from './Components/Footer';
+import fotografia from './img/IMG_20191231_123456.jpg'
 
 function App() {
-  const backgrounStyle = {
-    backgroungImage: 'url(/img/IMG_20191231_123456.jpg)',
+  const backgroundStyle = {
+    backgroundImage: `url(${fotografia})`,
     bacgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -20,16 +21,14 @@ function App() {
 
   return (
     <>
-    <div style={backgrounStyle}>
-    <div className='Main'>
-
-    <div className='Main2'>
-      <Initial />
-      <About />
-      <Interests />
-      <Footer />
-    </div>
-    
+    <div style={backgroundStyle}>
+      <div className='Main'>
+        <div className='Main2'>
+          <Initial />
+          <About />
+          <Interests />
+          <Footer />
+      </div>
     </div>
     </div>
     </>
