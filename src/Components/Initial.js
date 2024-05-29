@@ -11,7 +11,17 @@ function Initial() {
             <div className="Nome">André Pinto</div>
             <div className="Profession">Engineer</div>
             <div className="Email">andrebaltazarpinto@gmail.com</div>
-            <div className="Button"> <button className="btn2"><span class="material-icons"> email</span> <span className="email"> Email</span> </button> <button className="btn3"> <span class="material-icons">link</span> Linkedin </button></div>
+            <div className="Button"> 
+                <button className="btn2">
+                    <span class="material-icons"> email</span>
+                    <span className="email"> Email</span> 
+                </button> 
+                <a href="https://www.linkedin.com/in/andr%C3%A9-baltazar-pinto-13a056141/" target="_blank" rel="noreferrer">
+                    <button className="btn3">
+                         <span class="material-icons">link</span> Linkedin 
+                    </button>
+                </a> 
+            </div>
             
         </div>
         </>
