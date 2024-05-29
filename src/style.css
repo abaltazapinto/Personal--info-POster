@@ -14,7 +14,7 @@
 .Main{
 
     background-image: url('img/background.jpg');
-    background-size: 'cover';
+    background-size: 'max';
     background-repeat: 'no-repeat';
     background-position: 'center';
     height: '100vh';
